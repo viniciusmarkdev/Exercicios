@@ -12,7 +12,7 @@ public class ParImpar3{
 		System.out.println("Digite sua idade : ");
 		Scanner numero = new Scanner(System.in);
 		a = numero.nextInt();
-		
+	
 		if(a%2 == 0) {
 			
 			System.out.println("O numero "+a+"é par e sua raiz quadrada é "+Math.sqrt(a));
