@@ -1,4 +1,4 @@
-package POOintrodução;
+package POO;
 
 public class ObjetoCliente {
 	
@@ -12,7 +12,8 @@ public class ObjetoCliente {
 		
 	    
 		Cliente1.getCPFcadastrado();
-		//CPF ficticio
+		
+		//CPF ficticio //teste
 		Cliente1.setCPFcadastrado(12345678910l);
 		Cliente1.getValidação();
 		Cliente1.setValidação(12345678912l);
