@@ -32,6 +32,7 @@ public class elementmat {
 				
 		}
 	}
+		
 	
                 for(linha=0; linha < 4;linha++) {
 				

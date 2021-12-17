@@ -4,13 +4,21 @@ public class TestandoAnimal {
 	
 	public static void main (String[]args){
 		
-		 Animal Cachorro2= new Animal ("BOB",7,true,true);
-		 Animal Cavalo1 = new Animal("Gilbert",23,false,false);
-		 Animal preguica1= new Preguica("Norma",22,true,true,true);
-	     System.out.println(Cavalo1.status());
-	     
-         Cavalo1.Correr();
-         Cavalo1.Sentirmedo();
-
+		 Cachorro cachorro1= new Cachorro("BOB",7);
+		 cachorro1.Emitirsom();
+		 cachorro1.status();
+		 cachorro1.DeverCorrer();
+		 Cavalo c = new Cavalo("Gilbeto",24);
+		 c.status();
+		 c.Devecorrer();
+		 c.Emitirsom();
+		 
+		 Preguica p = new Preguica("Flash", 14);
+		
+		 p.Subir();
+		 p.status();
+		 p.Emitirsom();
+	
+		
+	}
 }
-}	

@@ -3,9 +3,23 @@ package Herança;
 public class Cachorro extends Animal{
 
 	
-		public Cachorro(String nome, int idade, boolean som, boolean medo) {
+	
+	public Cachorro(String nome, int idade) {
+		super(nome, idade);
+	
 		
-		super(nome, idade, som, medo);
+	}
+   public void DeverCorrer() {
+	   
+	   System.out.println("O cachorro corre");
+	   
+
+
+	
+		
+		
+		
+		
 	}
 }
 
