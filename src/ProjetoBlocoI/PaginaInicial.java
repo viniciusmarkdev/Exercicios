@@ -9,7 +9,7 @@ public class PaginaInicial {
 	public static void main(String[] args) {
 
 		Scanner leia = new Scanner(System.in);
-
+		
 		String a1 = "* * * * * * * * * * * * * * *";
 		String a2 = "* * * CINEMA GENERATION * * *";
 		String a3 = "* * * * * * * * * * * * * * *";

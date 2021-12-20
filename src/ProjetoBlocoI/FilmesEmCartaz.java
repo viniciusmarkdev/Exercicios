@@ -10,7 +10,7 @@ public class FilmesEmCartaz extends Cliente {
 		super(nome, idade);
 	}
 
-	public void sair() {
+	public void sair() {		
 		System.out.println("\n[0] Para retornar ao menu anterior.");
 		System.out.println("\n[1] Para sair do aplicativo.\n");
 		int sair = leia.nextInt();
