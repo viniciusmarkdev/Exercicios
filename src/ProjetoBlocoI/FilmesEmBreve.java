@@ -2,9 +2,8 @@ package ProjetoBlocoI;
 
 import java.util.Scanner;
 
-
 public class FilmesEmBreve extends Cliente {
-	
+
 	Scanner leia = new Scanner(System.in);
 
 	public FilmesEmBreve(String nome, int idade) {
@@ -182,4 +181,3 @@ public class FilmesEmBreve extends Cliente {
 		}
 	}
 }
-

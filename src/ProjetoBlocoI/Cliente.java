@@ -10,9 +10,8 @@ public class Cliente {
 		this.idade=idade;
 	}
 
-	public Cliente(String nome2, int idade2) {
-		// TODO Auto-generated constructor stub
-	}
+	
+	
 
 	public String getNome() {
 		return nome;

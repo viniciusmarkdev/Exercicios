@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class PaginaInicial {
-	
+
 	public static void main(String[] args) {
 
 		Scanner leia = new Scanner(System.in);
@@ -50,5 +50,3 @@ public class PaginaInicial {
 		}
 	}
 }
-
-
